@@ -111,6 +111,12 @@ gulp.task('image-min', () =>
 // });
 // gulp 4.0所修改
 
+gulp.task('deploy', function() {
+  return gulp.src('./public/**/*')
+    .pipe($.ghPages());
+});
+
+
 // gulp.task('build', gulpSequence('clean','jade', 'sass', 'babel', 'vendorJs');
 
 // gulp.task('default', gulp.parallel('jade', 'sass', 'babel',gulp.series('bower', 'vendorJs'), 'browser-sync', 'watch'));
