@@ -1,0 +1,6 @@
+.tmp
+bower_components
+public
+node_modules
+.vscode
+package-lock.json
