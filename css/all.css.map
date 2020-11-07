@@ -1,0 +1,1 @@
+{"version":3,"sources":["all.scss"],"names":[],"mappings":"AACA;EACI,UAFe,EAAA;;AAInB;EACI,iCAAyB;UAAzB,yBAAyB;EACzB,yBAAiB;UAAjB,iBAAiB,EAAA","file":"all.css","sourcesContent":["$primary-color: red;\nbody{\n    color: $primary-color;\n}\n.card {\n    transform: rotate(120deg);\n    filter: blur(3px);\n}"]}
