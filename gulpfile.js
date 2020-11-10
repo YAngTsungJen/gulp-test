@@ -139,7 +139,7 @@ gulp.task('default',
     function(done) {
       browserSync.init({
         server: {
-            baseDir: "./public"
+            baseDic: './public'
         },
         reloadDebounce: 2000
     })
