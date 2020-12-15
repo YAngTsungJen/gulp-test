@@ -138,9 +138,7 @@ gulp.task('default',
     gulp.parallel('jade', 'sass', 'babel'),
     function(done) {
       browserSync.init({
-        server: {
-            baseDic: './public'
-        },
+        server: {baseDir: './public'},
         reloadDebounce: 2000
     })
       gulp.watch('./source/scss/**/*.scss', gulp.series('sass'));
